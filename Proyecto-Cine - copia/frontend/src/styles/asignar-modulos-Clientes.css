@@ -1,0 +1,52 @@
+.contenedor-asignar-modulos {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search-bar input {
+  border-radius: 10px;
+  padding-left: 40px;
+}
+
+.modulo-bloque {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.modulo-header h5 {
+  font-weight: 600;
+  color: #333;
+}
+
+.modulo-icono {
+  font-size: 1.4rem;
+  color: #5a4fcf;
+}
+
+.badge.bg-purple {
+  background-color: #5a4fcf;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+
+.opciones-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opcion-item {
+  background: #f8f9fa;
+  padding: 10px 12px;
+  border-radius: 10px;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
+
+.opcion-item:hover {
+  background: #eef0f7;
+}
